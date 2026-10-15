@@ -4,7 +4,7 @@
 
 I build and ship production software across full-stack web (React, TypeScript, Node, Cloudflare, Supabase) and applied AI / information retrieval. I care about clean architecture, security, and shipping things real users depend on.
 
-Currently a final-year Computer Science student at the University of Salerno, open to **paid internships and part-time software roles**, remote or based in Salerno, Italy.
+Currently a final-year Computer Engineer student at the University of Jaen, open to **paid internships and part-time software roles**, remote or based in Spain.
 
 ## What I'm building: CeroPixels
 

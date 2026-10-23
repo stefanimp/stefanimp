@@ -36,7 +36,7 @@ for image production and review for international fashion brands.
 - Turn client-specific retouching and generation processes into configurable workflows, from upload to quality control and delivery.
 - Develop the React/TypeScript interface and Python services, with Cloudflare Workers, R2 and PostgreSQL/Supabase.
 - Implement tenant isolation, role-based permissions and server-side ownership checks.
-- Reduced main-thread computation in one high-volume review view by approximately 99% through profiling and memoization; use previews and progressive loading to keep navigation responsive.
+- Reduced main-thread computation in one high-volume review view by approximately 99% through profiling and memoization.
 - Connect AI image-processing jobs to human review and versioned delivery.
 
 The production application is private. The public projects above show my work in retrieval,

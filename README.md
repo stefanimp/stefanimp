@@ -1,43 +1,64 @@
-# Stefan Giovanni Imperato Lozano
+<div align="center">
 
-**Founder & Lead Full-Stack Engineer | Final-year Computer Science student**
+# Stefan Imperato
 
-I build and ship production software across full-stack web (React, TypeScript, Node, Cloudflare, Supabase) and applied AI / information retrieval. I care about clean architecture, security, and shipping things real users depend on.
+**Full-stack development · Applied AI**
 
-Currently a final-year Computer Engineer student at the University of Jaen, open to **paid internships and part-time software roles**, remote or based in Spain.
+[LinkedIn](https://www.linkedin.com/in/stefan-imperato/) · [CeroPixels](https://ceropixels.com) · [Projects](#selected-projects)
 
-## What I'm building: CeroPixels
+</div>
 
-**Founder & Lead Full-Stack Engineer.** A multi-tenant SaaS in production that runs an entire image-retouching operation (upload, retouch, quality control, client delivery) for an international fashion-retail client. I lead a team of five across development and operations.
+I build software for image-production workflows and tools that make information easier to find.
+I'm a co-founder, CTO and hands-on full-stack developer at **CeroPixels**, working with
+React, TypeScript, Python and PostgreSQL. My focus is responsive interfaces, reliable workflows
+and server-side authorization in applications used by multiple client organizations.
 
-**Stack:** React 18 + TypeScript (Vite), Cloudflare Pages Functions, scheduled Workers, private R2 storage, Supabase Auth + Postgres.
+**Open to fully remote software development roles from Spain**, with an interest in full-stack,
+backend and applied AI work.
 
-**Engineering:** secure multi-tenant isolation, server-side authorization, role-based access (5 roles), fail-closed workflow gates, presigned uploads, data-retention automation, architecture decision records, and automated security tests.
+## Selected projects
 
-## Competition wins
+| Project | What I built | Result |
+| --- | --- | --- |
+| **[Hybrid Search Ranking](https://github.com/stefanimp/hybrid-search-ranking)** | Passage ranking over 100,000 documents, combining lexical and dense retrieval signals, cross-encoder scores, LightGBM LambdaRank and reciprocal rank fusion. | **1st place**, University of Jaén IR tournament. Final private **MAP@10: 0.63461**. |
+| **[Spanish Sentiment Ensemble](https://github.com/stefanimp/spanish-sentiment-ensemble)** | Four-class Spanish sentiment analysis with RoBERTuito, Cardiff, BETO and a hierarchical cascade. Lightweight NumPy replay and optional transformer training. | **1st place**, University of Jaén NLP tournament. Public **macro F1: 0.64182**. |
+| **[Context Prism](https://github.com/stefanimp/context-prism)** | An Obsidian plugin that ranks local Markdown notes with TF-IDF/BM25 and prepares compact context packs for AI assistants. | Multilingual retrieval with reviewable selections; note content stays local. |
 
-**1st place: Spanish Sentiment Analysis (university NLP competition, InterTASS).** Macro-F1 of 0.668. Fine-tuned and ensembled Spanish/multilingual transformers (RoBERTuito, BETO, Cardiff XLM-R) with logit-space averaging and a hierarchical cascade classifier, trained on a 4 GB laptop GPU. Python, PyTorch, Transformers.
+Both tournament projects were individual work. Their repositories include English technical
+reports, synthetic demos and automated checks on Windows and Linux. Original datasets and
+model artifacts are excluded; each project explains its reproduction requirements and result provenance.
 
-**1st place: Information Retrieval search engine (university IR tournament).** MAP@10 of 0.635 over a 100,000-document corpus. Hybrid dense + BM25/TF-IDF retrieval, Cross-Encoder reranking, LightGBM LambdaRank, and Reciprocal Rank Fusion. Python, LightGBM.
+## Production work — CeroPixels
 
-## Open source
+At [CeroPixels](https://ceropixels.com), I coordinate a five-person team and build a B2B platform
+for image production and review for international fashion brands.
 
-**[Context Prism](https://github.com/stefanimp/context-prism)** is an Obsidian plugin that turns local Markdown notes into compact, token-aware context packs for AI assistants. Local-first, TF-IDF/BM25 ranking, multilingual, no telemetry. TypeScript.
+- Turn client-specific retouching and generation processes into configurable workflows, from upload to quality control and delivery.
+- Develop the React/TypeScript interface and Python services, with Cloudflare Workers, R2 and PostgreSQL/Supabase.
+- Implement tenant isolation, role-based permissions and server-side ownership checks.
+- Reduced main-thread computation in one high-volume review view by approximately 99% through profiling and memoization; use previews and progressive loading to keep navigation responsive.
+- Connect AI image-processing jobs to human review and versioned delivery.
 
-**[Obsidian Second Brain Starter](https://github.com/stefanimp/obsidian-second-brain-starter)** is a clean starter kit for a practical second brain: MOCs, properties, templates, and review workflows.
+The production application is private. The public projects above show my work in retrieval,
+machine learning and developer tools.
 
-## Tech
+## Technologies
 
-**Languages:** TypeScript, JavaScript, Python, Java, C++, SQL
+| Area | Tools I work with |
+| --- | --- |
+| Frontend | React, TypeScript, JavaScript, Vite, Tailwind CSS |
+| Backend & data | Python, Node.js, REST APIs, SQL, PostgreSQL, Supabase |
+| Cloud & engineering | Cloudflare Workers, Pages Functions, R2, Git, Docker, automated testing, CI |
+| Applied AI | PyTorch, Hugging Face Transformers, scikit-learn, LightGBM, NLP, information retrieval |
 
-**Frontend:** React, Vite, Tailwind CSS
+## Background
 
-**Backend & Cloud:** Node.js, Cloudflare (Pages, Functions, Workers, R2), Supabase, Postgres, REST & serverless APIs
+**Computer Engineering degree studies · Universidad de Jaén · 2022–2026**  
+Intelligent Information Processing track: AI, NLP and information retrieval.
 
-**AI / Data:** PyTorch, Transformers, scikit-learn, LightGBM, NLP, information retrieval, RAG
+**Erasmus+ · Università degli Studi di Firenze · 2024–2025**
 
-## Contact
+Spanish and Italian: native · English: **B2 (Cambridge English)**.
 
-**Email:** stefan408.imperato@gmail.com
-
-**LinkedIn:** [stefan-giovanni-imperato-lozano](https://www.linkedin.com/in/stefan-giovanni-imperato-lozano-4b53681ab/)
+For opportunities and professional enquiries, connect with me on
+[LinkedIn](https://www.linkedin.com/in/stefan-imperato/).

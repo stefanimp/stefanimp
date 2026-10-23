@@ -13,8 +13,8 @@ I'm a co-founder, CTO and hands-on full-stack developer at **CeroPixels**, worki
 React, TypeScript, Python and PostgreSQL. My focus is responsive interfaces, reliable workflows
 and server-side authorization in applications used by multiple client organizations.
 
-**Open to fully remote software development roles from Spain**, with an interest in full-stack,
-backend and applied AI work.
+**Open to remote, hybrid and on-site software development roles worldwide, including
+international relocation.** I'm interested in full-stack, backend and applied AI work.
 
 ## Selected projects
 
